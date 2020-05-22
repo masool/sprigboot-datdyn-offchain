@@ -12,14 +12,14 @@ public class PIIDataRowMapper implements RowMapper<PIIData> {
 	@Override
 	public PIIData mapRow(ResultSet rs, int arg1) throws SQLException {
 		PIIData pii = new PIIData();
-		pii.setPIIDataId(rs.getString("piiid"));
-		pii.setPIIDataName(rs.getString("piiName"));
-		pii.setPIIDataAddress(rs.getString("piiAddress"));
-		pii.setPIIDataEmail(rs.getString("piiEmail"));
-		pii.setPIIDataMobileno(rs.getString("piiMobileno"));
-		pii.setPIIDataGender(rs.getString("piiGender"));
-		pii.setPIIDataDOB(rs.getString("piiDOB"));
-		pii.setPIIDataProfession(rs.getString("piiProfession"));
+		pii.setPIIDataId(rs.getString("id"));
+		pii.setPIIDataName(rs.getString("name"));
+		pii.setPIIDataAddress(rs.getString("address"));
+		pii.setPIIDataEmail(rs.getString("email"));
+		pii.setPIIDataMobileno(rs.getString("mobileno"));
+		pii.setPIIDataGender(rs.getString("gender"));
+		pii.setPIIDataDOB(rs.getString("dob"));
+		pii.setPIIDataProfession(rs.getString("profession"));
 		
         return pii;
 	}

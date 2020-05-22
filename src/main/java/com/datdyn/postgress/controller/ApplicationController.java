@@ -3,8 +3,6 @@ package com.datdyn.postgress.controller;
 import java.util.List;
 
 import javax.annotation.Resource;
-import javax.print.PrintService;
-
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.datdyn.postgress.entity.PIIData;
 import com.datdyn.postgress.service.PIIDataService;
-import com.datdyn.postgress.service.PIIDataServiceImpl;
 
 @RestController
 @RequestMapping("/postgressApp")

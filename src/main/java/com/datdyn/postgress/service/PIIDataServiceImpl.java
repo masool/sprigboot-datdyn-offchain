@@ -6,7 +6,7 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
-import com.datdyn.postgress.dao.PIIData;
+import com.datdyn.postgress.PII.PIIData;
 @Component
 public class PIIDataServiceImpl implements PIIData{
 	@Resource 
